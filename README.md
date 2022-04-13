@@ -1,8 +1,8 @@
-# README CREATOR  [![License: MIT](undefined)](undefined)
+# README CREATOR  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
 
-  Simplify the readme creation process by answering a few prompts from the commandline.  Your answers will be formated into a professional sectioned readme file.
+  Simplify the readme creation process by answering a few prompts from the commandline.  Your answers will be formatted into a professional sectioned readme file.
 
 
   ## Table of Contents (Optional)
@@ -15,18 +15,20 @@
 
   ## Installation
 
-  Clone or download the applicaiton repository
+ - Clone or download the application repository 
 [Create README](https://github.com/ladytrell/create-readme)
-Download and Install node.js if not already installed.  [node.js](https://nodejs.org/en/) for your platform:  [How to Install Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
+ - Download and Install node.js if not already installed.  [node.js](https://nodejs.org/en/) for your platform:  [How to Install Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
 
   ## Usage
 
- -  Go to the directory location where you saved the application 
- - Install dependenncies
+ - Go to the directory location where you saved the application 
+ - Install dependencies
  - npm install
  - Type 'node index' to start the application. 
  - Answer the series of questions to provide the details for the project's readme.
  - Open dist director view access the created README.md file
+
+ - [Demo Video](https://drive.google.com/file/d/1t5GtOG8MEKYPJ4z1eOG6UTU_N74i0GtD/view)
 
   ## Contributing
 
@@ -38,7 +40,7 @@ Download and Install node.js if not already installed.  [node.js](https://nodejs
  - Add or change the documentation as needed.
  - Push your branch to your fork on Github, the remote origin.
  - Clone from develop resolve conflicts prior to making a pull request
- - From your fork open a pull request in the correct branch. Target the project's sevelop branch.
+ - From your fork open a pull request in the correct branch. Target the project's develop branch.
  - Once the pull request is approved and merged you can pull the changes from upstream to your local repo and delete your extra branch(es).
 
 
