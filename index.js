@@ -121,6 +121,16 @@ const questions = [
 const writeToFile = (fileName, data) => {
     
     return new Promise((resolve, reject) => {
+      // if dist directory does not exist, create it
+      const folderName = './dist'
+      try {
+        if (!fs.existsSync(folderName)) {
+          fs.mkdirSync(folderName)
+        }
+      } catch (err) {
+        console.error(err)
+      }
+
       fs.writeFile(fileName, data, err => {
         // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
         if (err) {
